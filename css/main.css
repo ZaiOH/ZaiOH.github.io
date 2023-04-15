@@ -1,0 +1,213 @@
+body{
+ margin: 0;  
+ padding: 0;
+ font-size: 13px;
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: rgba(170, 97, 253, 0.774);
+ 
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(96, 4, 201, 0.349);
+
+}
+
+/* Importante los espacios 
+Navegacion*/
+header nav{
+    display: flex;
+    justify-content: flex-end; /*justificado a la derecha*/
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav .nav-right-section a{
+    margin-right: 25px;
+    color: rgb(32, 32, 32);
+}
+
+/* Icono menu */
+nav .nav-right-section .menu{
+    background-image: url(https://cdn-icons-png.flaticon.com/512/8860/8860939.png);
+    width: 20px;
+    height: 20px;
+    background-size: contain;   
+    margin-right: 25px; 
+}
+
+/*  Imagen estilo */
+nav .nav-right-section img{
+    border-radius: 50%;
+}
+
+/*MAIN*/
+main{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*Seccion logo*/
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+/*logo de Google*/
+main .main-logo img{
+    width: 310px;
+    height: 110px;
+}
+
+/*Seccion input*/
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+main .main-input-container{
+    width: 500px;
+    border-radius: 80px;
+    border: 1px solid;
+    border-color: rgb(79, 5, 163);
+    display: flex;
+    justify-content: center;
+}
+
+main .main-input input{
+    border: none;
+    background-color: rgba(1, 123, 179, 0);
+    width: 450px;
+    height: 40px;
+    outline: none;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0px 1px 6px 1px rgb(79, 5, 163);
+}
+
+main .main-input .search-icon{
+    background-image: url(/buscar.png);
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    background-repeat: no-repeat;
+    margin: 0 10px;
+    
+}
+
+main .main-input .micro-icon{
+    width: 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(/microphone.png);
+}
+
+main .main-input .cam-icon{
+    width: 45px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(/camera.png) ;
+    margin: 0 1px;
+}
+
+main .main-buttons{
+    width: 550px;
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    display: inline-block;
+
+}
+
+main .main-buttons button{
+    background-color: rgba(79, 5, 163, 0.774);
+    border: 1px solid  rgba(79, 5, 163, 0.705);
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+main .main-buttons button:hover{
+    box-shadow: 0 1px 1px rgba(1, 13, 19, 0.452);
+    border: 1px solid #8b4ffccc;
+    color: azure;
+}
+
+footer{
+    background-color: rgba(96, 4, 201, 0.349);
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    font-size: 13px;
+    border-top: 1px solid rgba(96, 4, 201, 0.349);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    bottom: 0;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+footer .footer-left{
+    justify-self: left;
+
+}
+
+footer .footer-right{
+    justify-self: right;
+
+}
+
+footer ul li a{
+    color: rgb(32, 32, 32);
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
